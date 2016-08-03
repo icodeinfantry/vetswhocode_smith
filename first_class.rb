@@ -1,20 +1,14 @@
 #super class
 class Human
-    
-    def name
-       puts "Ivory"
-       puts "Smith"
-       
-    end
-   
-    def gender
-       puts "Male"
-    end
-    
-    def service
-        puts "USA"
-    end
-    
+
+  def name
+    puts "Ivory"
+    puts "Smith"
+  end
+
+  def service
+    puts "USA"
+  end
 end
 
 class You < Human
